@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Disease Surveillance and Epidemics</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Disease Surveillance and Epidemics</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+      <a id='top'></a>
+  <article>
+
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Definition</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>It is the continuous scrutiny and watchfulness of disease and factors that determine the occurrence and distribution of the disease and other conditions of ill-health with sufficient accuracy and completeness to provide basis for effective control. </p>
+            <p>Disease surveillance involves </p>
+            <ol>
+                <li>Collection</li>
+                <li>Collation  </li>
+                <li>Evaluation, and  </li>
+                <li>Dissemination of information to those in position of taking action</li>
+            </ol>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Objectives of surveillance  </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ol>
+                <li>To define the demographic, temporal and geographic distribution of disease </li>
+                <li>To test hypotheses regarding causation or transmission </li>
+                <li>To detect outbreaks or new strains,  </li>
+                <li>To guide or evaluate disease control strategies </li>
+                <li>To assess cost of a condition </li>
+                <li>To detect changes in public health practice </li>
+                <li>To facilitate planning and identify research needs, and/or </li>
+                <li>To define the natural history of disease </li>
+                <li>Prepare and distribute surveillance reports to health care professionals participating in disease prevention and control activities. </li>
+            </ol>
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Types of disease surveillance  </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ol>
+                <li>Active surveillance </li>
+                <li>Passive surveillance </li>
+                <li>Epidemiological surveillance </li>
+                <li>Nutritional surveillance </li>
+                <li>Demographic surveillance </li>
+                <li>Sentinel surveillance </li>
+            </ol>
+
+            <section id='heading-3-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-1'>Epidemiologic surveillance  </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                    <li>It is the ongoing systematic collection, recording, analysis, interpretation, and dissemination of data reflecting the current health status of a community or population.  </li>
+                    <li>Surveillance is based on both passive and active data collection processes. </li>
+                   </ul>
+                </div>
+              </section>
+
+              <section id='heading-3-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-2'>Active surveillance  </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                    <li>Refers to daily, weekly or monthly contacting of physicians, hospitals, laboratories, schools or others to “actively” search for cases.  </li>
+                    <li>It is more time- and resource- intensive, relative to passive surveillance, and therefore less commonly used in emergencies, but it is more complete than passive surveillance. </li>
+                    <li>It is used during high disease frequencies and also during outbreaks </li>
+                    <li>E.g.  </li>
+                    <ul>
+                        <li>Health surveys </li>
+                        <li>Census</li>
+                    </ul>
+                   </ul>
+                </div>
+              </section>
+
+              <section id='heading-3-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-3'>Passive surveillance  </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                    <li>Done on a routine/regular basis i.e. data taken by institution that see patients are being routinely or regularly submitted for analysis. There is no active search for cases </li>
+                    <li>Relies on cooperation or compliance of health-care provider (laboratories, hospitals, private practitioners) to report the occurrence of diseases to a higher administrative level, where the data is compiled and analyzed to monitor disease patterns and identify possible outbreaks </li>
+                    <li>It is the most common type of surveillance for </li>
+                    <ul>
+                        <li>Humanitarian emergencies </li>
+                        <li>Communicable disease </li>
+                        <li>The detection of vaccine-preventable disease </li>
+                    </ul>
+                    <li>It is often incomplete; because there are few incentives for health workers to report. </li>
+                    <li>E.g.  </li>
+                    <ul>
+                        <li>Hospital and billing data </li>
+                        <li>Vital statistics: births and deaths </li>
+                    </ul>
+                   </ul>
+                </div>
+              </section>
+
+              <section id='heading-3-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-4'>Nutritional surveillance  </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                    <li>It is a systematic approach used to detect malnutrition and identify populations at risk of suffering from it. </li>
+                    <li>Usually done for population of <5yrs of age </li>
+                    <li>Then, Classify population into: </li>
+                    <ul>
+                        <li>Stunted; 	</li>
+                        <li>Having kwashiorkor; </li>
+                        <li>Marasmic; </li>
+                        <li>Underweight;  </li>
+                        <li>Obese; </li>
+                        <li>Well nourished </li>
+                    </ul>
+                   </ul>
+                </div>
+              </section>
+
+              <section id='heading-3-5'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-5'>Demographic surveillance  </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                    <li>Relating obtained data to demographic data (age, sex, marital status ...) </li>
+                    <li>Demographic surveillance systems (DSS) work by monitoring individuals, households and residential units in a well-defined geographic area, known as a demographic surveillance area (DSA). </li>
+                    <li>They begin with an Initial Census, which defines and registers each individual in the target population, as well as age, sex and marital status. Data are collected, at this stage, on household composition, religion, ethnicity, education levels, occupation, household wealth and access to facilities such as water and sanitation. </li>
+                    <li>Subsequently, regular data collection monitor changes to this population by gathering information on births, deaths and migrations. These update rounds also record other key events such as marriage, divorce, pregnancy and changes in employment status. </li>
+                   </ul>
+                </div>
+              </section>
+
+              <section id='heading-3-6'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-6'>Sentinel surveillance  </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                        <li>You carry out a study on a specific condition, its rate of occurrence and its stability within a particular subgroup of a population. The data obtained are generalized for the whole population. </li>
+                        <li>To assess burden of a disease on a population </li>
+                        <li>Sentinel surveillance system is used when high-quality data are needed about a particular disease that cannot be obtained thru a passive system. </li>
+                   </ul>
+                </div>
+              </section>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Factors affecting disease surveillance in Nigeria  </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>Inadequate supervision</li>
+                <li>Lack of logistic support </li>
+                <li>Frequent turn-over of staff </li>
+                <li>Inadequate training </li>
+                <li>Deficient or unharmonized data</li>
+                <li>Lack of political will, and therefore depending on donor </li>
+                <li>Data falsification</li>
+            </ul>
+
+            <figure>
+                <img src="../figures/surveillance (1).jpg" alt="">
+                <figcaption> </figcaption>
+              </figure>
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Epidemics  </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Definition: Epidemics is the increase in the number of cases of a disease in a population, in excess of the usual number for that place and that particular time. </p>
+
+            <span class="special-text-4b">Other terms  </span>
+            <ul>
+                <li>PANDEMIC – increase in the number of cases of a disease in a particular place, over a period of time, in excess of the usual, that has spread beyond a country </li>
+                <li>ENDEMIC – habitual presence of a disease in a place throughout the year </li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Objectives of investigation of epidemics  </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>To help define magnitude of outbreak in terms of time, place and person </li>
+                <li>To identify factors responsible </li>
+                <li>To identify cause, source and route of transmission or mode of transmission</li>
+                <li>To prevent future occurrence</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Steps in investigation of epidemics   </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>Verify diagnosis </li>
+            <li>Confirmation of existence of epidemics </li>
+            <li>Defining the population at risk </li>
+            <li>Rapid search for all cases and their characteristics through medical survey, etc.</li>
+            <li>Data analysis in terms of time, place and person, for the disease. </li>
+            <li>Formulation of hypothesis </li>
+            <li>Testing of hypothesis </li>
+            <li>Evaluation of ecological factors </li>
+            <li>Further investigation to determine population at risk </li>
+            <li>Report writing </li>
+            <li>Disseminate the findings</li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>Management of epidemics   </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>It is a team approach </li>
+            <li>Get the history of disease from patients while treating them </li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'>Types of epidemics   </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>Point-source epidemics – because of a single exposure </li>
+            <li>Propagated epidemics – because of multiple exposures </li>
+           </ul>
+
+           <figure>
+            <img src="../figures/surveillance (2).png" alt="">
+            <figcaption> Point source epidemic</figcaption>
+          </figure>
+
+          <figure>
+            <img src="../figures/surveillance (3).png" alt="">
+            <figcaption>Propagated epidemic </figcaption>
+          </figure>
+
+          <p>ISOLATION – You isolate people with the disease</p>
+          <p>QUARANTINE – you quarantine those with suspected cases of the disease </p>
+          <p>PRIMORDIAL PREVENTION – government policies/legislations that are in place to prevent the disease e.g.  </p>
+          <ul>
+            <li>Adequate town planning in a population that has never been exposed </li>
+            <li>In Ochocerciasis, people should not build houses around riverine areas</li>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 

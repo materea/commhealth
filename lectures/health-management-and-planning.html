@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Health Management and Planning</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Health Management and Planning</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+      <a id='top'></a>
+  <article>
+
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Management</a>
+          </h2>
+        </header>
+        <div class='body'>
+          <section id='heading-1-1'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-1-1'>Introduction </a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Management is the attainment of organizational goals in an effective and efficient manner through planning, organizing, staffing, directing and controlling organizational resources.</li>
+                <li>Organizational resources include men (human beings), money, machines and materials.</li>
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-1-2'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-1-2'>Other definitions of management</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Louis E Boone & David L Kurtz- The use of people and other resources to accomplish objectives.</li>
+                <li>Mary Parker Follet- the act of getting things done through people.</li>
+                <li>Frederick Taylor defines Management as the art of knowing what you want to do in the best and cheapest way. </li>
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-1-3'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-1-3'>Types of Managerial Decisions</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Programmed  </li>
+                <li>Nonprogrammed</li>
+                <li>Mechanistic-It is one that is routine and repetitive in nature </li>
+                <li>Analytical-It involves a problem with a larger number of decision variables</li>
+                <li>Judgmental-It involves a problem with a limited number of decision variables, but the outcomes of decision alternatives are unknown</li>
+                <li>Adaptive-It involves a problem with a large number of decision variables, where outcomes are not predictable </li>
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-1-4'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-1-4'>Functions of management</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Planning</li>
+                <li>Organizing</li>
+                <li>Staffing</li>
+                <li>Directing</li>
+                <li>Controlling</li>
+               </ul>
+            </div>
+          </section>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Planning</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>A plan is a course of action one intends to follow to solve a problem. It ensures that objectives are set to deal with problems and to make best use of available resources.</li>
+              <li>A plan also provides the opportunity to consider all the options available for the performance of tasks in response to needs.</li>
+              <li>Planning is determining the objectives and formulating the methods to achieve them. It is more simply said than done. A job well planned is half done. </li>
+              <li> During planning one needs to ask oneself the following:</li>
+              <ul>
+                <li>What am I trying to accomplish i.e. what is my objective?</li>
+                <li>What resources do I have and do I need to accomplish the same?</li>
+                <li>What are the methods and means to achieve the objectives?</li>
+                <li>Is this the optimal path?</li>
+              </ul>
+            </ul>
+          <section id='heading-2-1'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-1'>Planning as continuous process</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Planning is a continuous learning process.</li>
+                <li>Aims need to be constantly reviewed as;      </li>
+                <ul>
+                  <li>The pattern of health problems changes</li>
+                  <li>Opportunities arises for more effective use of resources and </li>
+                  <li>The focus of priorities and policy moves.</li>
+                </ul>
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-2-2'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-2'>Focus of planning </a>
+              </h3>
+            </header>
+            <div class='body'>
+               <p>Planning may focus on achieving changes in</p>
+               <ul>
+                <li>The characteristics of individuals (such as knowledge, attitudes, health risk behaviour / practices and health status).</li>
+                <li>The characteristics of groups or organizations (such as cost, availability and quality of services)</li>
+                <li>The physical, economic, legal and social characteristics of the environments in which people work or live.</li>
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-2-3'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-3'>Principles of planning</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Take Time to Plan</li>
+                <li>Planning can be Top to Down or Bottom to Top</li>
+                <li>Involve and Communicate with all those Concerned</li>
+                <li>Plans must be Flexible and Dynamic</li>
+                <li>Evaluate and Revise</li>
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-2-3'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-3'>Key questions in effective planning</a>
+              </h3>
+            </header>
+            <div class='body'>
+              <ul>
+                <li>Where are we now? – Assessment of the current status.</li>
+                <li>Where do we want to go? – Identification of the desired sate in the future (Priorities, Goals, Targets, Decisions).</li>
+                <li>How will we get there? – Specification of interventions and other activities that will affect the necessary changes to achieve the new desired state (Organization and Management). </li>
+                <li>How will we know when we arrive? (Evaluation).</li>
+              </ul>
+
+              <figure>
+                <img src="../figures/health-mgt.png" alt="">
+                <figcaption>Health planning and implementation cycle. </figcaption>
+              </figure>
+
+              <section id='heading-2-4-1'>
+                <header>
+                  <h4>
+        
+                    <a aria-hidden href='#heading-2-4-1'>Situation analysis</a>
+                  </h4>
+                </header>
+                <div class='body'>
+                  <ul>
+                    <li>This is recognizing the problems and the need for action. </li>
+                    <li>It is like making a community diagnosis. </li>
+                    <li>In this stage of planning, the following are assessed: </li>
+                    <ul>
+                      <li>Health problems</li>
+                      <li>Heath care problems</li>
+                      <li>Health care and resources costs</li>
+                      <li>Community characteristics and the opportunities</li>
+                    </ul>
+                   </ul>
+        
+                </div>
+              </section>
+
+              <section id='heading-2-4-2'>
+                <header>
+                  <h4>
+        
+                    <a aria-hidden href='#heading-2-4-2'>Priority setting, goals, targets</a>
+                  </h4>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>This involves </li>
+                      <ul>
+                        <li>Recognizing health priorities</li>
+                        <li>Setting key targets for action</li>
+                        <li>Identifying tasks to be done and </li>
+                        <li>Gathering experience from other projects</li>
+                      </ul>
+                      <li>Necessary information obtained by collecting and analysing data.</li>
+                      <li>Identifying the desired future state is largely a matter of values and determining what should be done to effect the desired changes.</li>
+                      <li>Requires expert knowledge of how organizations and health care systems operate and in-depth understanding of a community’s values, beliefs, politics and particular patterns of interaction. </li>
+                    </ul>
+        
+                </div>
+              </section>
+
+              <section id='heading-2-4-3'>
+                <header>
+                  <h42
+        
+                    <a aria-hidden href='#heading-2-4-3'>Implementation </a>
+                  </h4>
+                </header>
+                <div class='body'>
+                    <p>The implementation stage will involve:</p>
+                    <ul>
+                      <li>Matching tasks to the staff and resources available </li>
+                      <li>Setting up organization</li>
+                      <li>Training and </li>
+                      <li>Supervision</li>
+                    </ul>
+        
+                </div>
+              </section>
+
+              <section id='heading-2-4-4'>
+                <header>
+                  <h4>
+        
+                    <a aria-hidden href='#heading-2-4-4'>Evaluation </a>
+                  </h4>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>Review your plan if your goal and objective is achieve </li>
+                      <li>Re plan if necessary </li>
+                    </ul>
+        
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section id='heading-2-5'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-5'>Classification of types of planning </a>
+              </h3>
+            </header>
+            <div class='body'>
+              <ul>
+                <li>Based on time period: Daily, weekly monthly, annual etc.</li>
+                <li>Based on level of Management  </li>
+                <li>Based on Events/ Managerial:  Policy, programme, procedure, Budget</li>
+                <li>Based on target – community, population, institutions, organization etc. </li>
+              </ul>
+            </div>
+          </section>
+
+          <section id='heading-2-6'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-6'>Types of planning</a>
+              </h3>
+            </header>
+            <div class='body'>
+              <ul>
+                <li>Population based planning – attempts to study the entire population of a designated region to specify changes in existing resources needed to meet the health service requirement of that population.</li>
+                <li>Institution based planning – involves determining what types and levels of service the institution (such as hospital, health maintenance organization or neighbourhood center) needs to accomplish its defined mission, and then proceeding to market services to the required client.</li>
+                <li>Program planning – is quite common and incorporates aspects of the other types of planning (e.g. AIDS prevention education, Guinea worm eradication, Polio eradication, etc.)</li>
+                <li>Strategic plan – long term (Top management)</li>
+                <li>Tactical plan – mid-term (mid management)</li>
+                <li>Operation plan – short term (operational level)</li>
+                <li>Rolling plan</li>
+                <li>Annual plan</li>
+                <li>Policies-general statement or understanding which guide or channel thinking in decision making</li>
+                <li>Programs-comprehensive plan that includes future use of different resources</li>
+                <li>Procedures-states a series of related steps or tasks to be performed in a sequential way</li>
+                <li>Budgets-statement of expected results expressed in numerical terms</li>
+              </ul>
+            </div>
+          </section>
+
+          <section id='heading-2-7'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-7'>Program planning</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ul>
+                <li>Health programme include </li>
+                <ul>
+                  <li>Communicable Diseases e.g. Malaria, TB, </li>
+                  <li>NCD— Hypertension, DM  </li>
+                  <li>Cancers</li>
+                  <li>Prevention </li>
+                  <li>Program planning– is quite common and incorporates aspects of the other types of planning (e.g. AIDS prevention education, Guinea worm eradication, Polio eradication, etc.)</li>
+                </ul>
+
+               </ul>
+            </div>
+          </section>
+
+          <section id='heading-2-8'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-2-8'>Essential components of Health Program Plans</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <ol>
+                <li>Statement of goals – broad statements that define what the health program is expected   to accomplish.</li>
+                <li>Objectives – specific statements of activities and outcomes needed to reach a goal including time frame, a strong verb, a single purpose and a single result or end product.</li>
+                <li>Methods and activities – the means through which the changes will be made. Activities describe the specific things that will be done to implement the change. Methods identify the vehicle for change – mass media, regulatory legislations etc.</li>
+                <li>Resources and constraints – resources that are available that will be used to bring about a change while constraints are forces expected to work against the program.</li>
+                <li>Implementation plan – procedures for introducing the program to the target group.</li>
+                <li>Evaluation plan – procedures for the collection and analysis of information to determine program performance.</li>
+               </ol>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+
+      </section>
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 

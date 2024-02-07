@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Refuse, Sewage Disposal</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Refuse, Sewage Disposal</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+      <a id='top'></a>
+  <article>
+
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>The key to man’s health lies largely in his environment</p>
+            <p>In fact, human activities and actions in his environment directly or indirectly impact on his supplies of water, foods and other conditions which invariably impact his health</p>
+            <p>WHO estimated that 24% of the world’s burden of disease and about 1/3rd of the burden in children is due to preventable environmental factors e.g. unclean water and poor sanitation, and the two remain the most potent environmental causes of illness world-wide</p>
+            <p>Environment implies all the external factors- living, non-living, material and non-material which surround man and can influence his health status</p>
+            <p>It consists of physical (noise, climate, radiation, lightening, heat), biological (bacteria, viruses, insects, etc.) and social (beliefs, culture, religion, customs) factors</p>
+            <p>Health is a state of complete physical, mental and social wellbeing and not merely the absence of disease or infirmity</p>
+            <p>Environmental health is the branch of public health concerned with all aspects of the environment that may affect human health, encompassing the assessment and control of those environmental factors that can potentially affect health  </p>
+            <p>Environmental Health can be defined as the science that is concerned with those aspects of human health, including quality of life, that are determined by physical, biological, social, and psychosocial factors in the environment</p>
+            <p>It also refers to the theory and practice of assessing, correcting, controlling, and preventing those factors in the environment that can potentially affect adversely the health of present and future generations (WHO, 1993a)</p>
+            <p>Environmental health addresses all human-health-related aspects of both the natural environment and the built environment.</p>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Components of Environmental Health </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Environmental health involves the following activities</p>
+            <ul>
+                <li>	Waste management (proper disposal of solid wastes/refuse disposal)</li>
+                <li>	Waste management (proper disposal of sewage)</li>
+                <li>	Provision of adequate, safe, portable, wholesome water supply</li>
+                <li>	Food hygiene/ safety</li>
+                <li>	Provision of good housing</li>
+                <li>	Control of insect vectors and pests</li>
+                <li>	Provision of good housing</li>
+                <li>	Control of insect vectors and pests</li>
+                <li>	Control of atmospheric pollution </li>
+                <li>	Elimination of other hazards e.g. noise, radiation, etc.</li>
+            </ul>
+
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Waste Management</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Disposal of waste is now the responsibility of Environmental Officers. However, health professionals need to have a basic knowledge of the subject matter since improper disposal of wastes constitute a health hazard. Again as health professionals, you could be called upon to give advice in some special situations</p>
+                <p>Waste is any material or substances that do not have immediate economic value at that particular point in time and then becoming a nuisance to the disposer</p>
+                <p>They are usually by-products of human activities that may be discarded or disposed of or reutilized in any other resourceful way</p>
+                <p>Waste management is the practice of gradually reducing wastes with the ultimate aim of eliminating those that have the potential to cause harm to people and the environment.</p>
+                <p>Solid waste, also known as refuse are substances produced in our daily activities at home, agricultural as well as industrial settings.</p>
+                <p>Solid wastes generated in these settings include garbage, plastics, empty cans as well as biomedical (healthcare waste) and hazardous waste generated from industries </p>
+                <p>Liquid waste on the other hand are collectively referred to as sewage</p>
+                <p>Sewage include excreta of faeces and urine, effluent from bath, kitchen and laundry i.e. sullage as well as rain run-off and industrial wastewater  </p>
+                <p>Solid wastes include</p>
+                <ul>
+                    <li>	Garbage (food wastes) </li>
+                    <li>	Rubbish (paper, plastics, wood, metal, throw away containers, glass)</li>
+                    <li>	Demolition products (bricks, masonry, pipes)</li>
+                    <li>	Dead animals</li>
+                    <li>	Sewage treatment residues (sludge and solids from the coarse screening of domestic sewage).</li>
+                    <li>	Manure and other discarded materials. </li>
+                </ul>
+                <p>The output of daily wastes depend upon the dietary habits, life styles, living standards and degree of urbanization or modernization </p>
+            <section id='heading-3-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-1'>Characteristics of solid waste </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>Physical characteristics of solid waste</p>
+                   <ul>
+                    <li>	Weight</li>
+                    <li>	Volume</li>
+                    <li>	Density</li>
+                   </ul>
+                   <p>Physical components</p>
+                   <ul>
+                    <li>	Combustible</li>
+                    <li>	Non-combustible</li>
+                    <li>	Biodegradable (mainly organics)</li>
+                    <li>	Non-biodegradable (metals, glass, plastics, tin, asbestos)</li>
+                   </ul>
+                   <p>Chemical characteristics of solid wastes (mostly for the biodegradable fraction)</p>
+                   <ul>
+                    <li>	pH</li>
+                    <li>	Moisture content</li>
+                    <li>	C, N, P, K, Heavy metals</li>
+                   </ul>
+                </div>
+            </section>
+
+            <section id='heading-3-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-2'>Basic Principles of Waste Management</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>5 Basic Steps:</p>
+                   <ol>
+                    <li>Waste inventorization: Taking inventory of all waste generated i.e. source of waste, degree of waste generated, form of waste, type /category of waste.</li>
+                    <li>Waste characterization: Characterization of waste based on physical, chemical and toxicological properties of waste.</li>
+                    <li>Waste secregation: Selective separation of waste i.e. Hand picking/sorting at Source. </li>
+                    <li>Waste minimization: This involves the 5Rs. i.e.</li>
+                    <ul>
+                        <li>Reduce </li>
+                        <li>Reuse </li>
+                        <li>Recycle </li>
+                        <li>Recovery</li>
+                        <li>Reject</li>
+                    </ul>
+                    <li>Waste treatment: This involves physical/biological treatment.</li>
+                   </ol>
+
+                   <figure>
+                    <img src="../figures/waste-mgt (1).png" alt="">
+                    <figcaption> Waste Management Pyramid</figcaption>
+                   </figure>
+                </div>
+            </section>
+
+            <section id='heading-3-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-3'>Impact of Solid waste on Environment</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <ul>
+                    <li>	Soil pollution</li>
+                    <li>	Water pollution</li>
+                    <li>	Air pollution</li>
+                    <li>	Leachate production</li>
+                    <li>	Nuisance effect</li>
+                    <li>	Vector infestation</li>
+                    <li>	It decomposes and favors fly breeding </li>
+                    <li>	It attracts rodents</li>
+                    <li>	Pathogens contain therein may be conveyed back to man’s food through flies and dust</li>
+                    <li>	There is possibility of water and soil pollution</li>
+                    <li>	Heaps of refuse present an unsightly appearance and nuisance from bad odors </li>
+                   </ul>
+                </div>
+            </section>
+
+            <section id='heading-3-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-4'>Color Coding of Waste</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <figure>
+                        <img src="../figures/waste-mgt (2).png" alt="">
+                        <figcaption> </figcaption>
+                       </figure>
+                </div>
+            </section>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Sources of Waste </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>	<span class="special-text">Domestic</span>: from household </p>
+            <p>	<span class="special-text">Municipal</span>: market and abattoir</p>
+            <p>	<span class="special-text">Agricultural</span>: plants and animal remains</p>
+            <p>	<span class="special-text">Industrial</span>: from industries</p>
+            <p>	<span class="special-text">Hazardous wastes</span>: hospital</p>
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Refuse Disposal Methods</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">Sources of refuse</span></h4>
+            <ul>
+                <li>Street refuse</li>
+                <li>Market refuse; putrid vegetable, animal matter</li>
+                <li>Stable litter; animal droppings, left over feeds</li>
+                <li>Industrial refuse; inert materials, highly toxic compounds</li>
+                <li>Domestic refuse; ash, garbage, paper, clothing</li>
+                <li>Hospital waste</li>
+            </ul>
+
+            <h4><span class="special-text-4">Methods of Disposal</span></h4>
+            <ul>
+                <li>Controlled Tipping/Sanitary Landfill</li>
+                <li>Composting</li>
+                <li>Incineration/Combustion</li>
+                <li>Sea Disposal/Barging</li>
+                <li>Mechanical Destructor</li>
+                <li>Other </li>
+            </ul>
+
+            <section id='heading-5-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-5-1'>Controlled Tipping/Sanitary Landfill</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>This is the most popularly used method. In this method, refuses are piled up in 2m layers and covered daily with 20-25cm of soil or sand. </p>
+                   <p>This method is useful in land reclamation of gullies, excavation and low land areas and does not require high technology to operate however, it can cause odor and fly nuisance if not properly managed</p>
+                   <p>3 methods are used</p>
+                   <ol>
+                    <li>The trench Method; used in level ground</li>
+                    <li>The ramp method; suited for moderately sloping terrain</li>
+                    <li>The area method; used for filling land depressions, disused quarries and clay pits</li>
+                   </ol>
+
+                   <h4><span class="special-text-4">Problems associated with landfill</span></h4>
+                   <ul>
+                    <li>Poorly managed sites have resulted in polluted ground or surface waters </li>
+                    <li>Uncontrolled landfill gas generation— without proper control, landfills can be a source of nuisance to neighbors as a result of, for example, odors, flies, litter or noise in the surrounding area</li>
+                    <li>Most importantly, when we landfill our waste we are simply burying and losing our resources</li>
+                   </ul>
+                </div>
+            </section>
+
+            <section id='heading-5-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-5-2'>Composting</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>A mixture of compostable refuse and other nitrogen rich decomposable wastes (e.g. night soil, sludge) is heaped for several months with periodic turning. </p>
+                   <p>The end product, manure, is used in gardening or farming. Separation is necessary before composting but this exercise adds to the cost. </p>
+                   <p>Moreover, there could be odor and fly nuisance if not properly managed. In developed countries sophisticated compost plants are used but these are very expensive.</p>
+                </div>
+            </section>
+
+            <section id='heading-5-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-5-3'>Incineration/Combustion</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>Refuse is sorted out and combustible matters are dried up and burned in a large incinerator maintained at 900°C - 1200°C. </p>
+                   <p>High technology incineration as a method of treatment of refuse is very good. It kills all pathogenic organisms, render hazardous wastes harmless but it is very expensive and complex for use in developing countries. </p>
+                   <p>Another disadvantage of the method is air pollution.</p>
+                   <p>Method of choice where suitable land is not available</p>
+                   <p>Hospital refuse which is particularly dangerous is best disposed by incineration</p>
+                   <p>Practiced in industrialized countries where, particularly in large cities where land is not available</p>
+                </div>
+            </section>
+
+            <section id='heading-5-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-5-4'>Sea Disposal/Barging</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>This method is popular in coastal areas. Refuse is dumped directly into the waters of a river or sea at a distance to prevent refuse being carried back to shore by tides and causing nuisance. </p>
+                   <p>Boats specially equipped to deposit the refuse through the bottom are often required. For toxic or radioactive wastes, these are sealed in water-tight containers and buried in deep seas. </p>
+                   <p>Water pollution is the main disadvantage of this method</p>
+                </div>
+            </section>
+
+            <section id='heading-5-5'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-5-5'>Mechanical Destructor </a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>This is a plant used for treating refuse. After sorting out all that could work against the machine, what remains is fed into it for pulverization and the end product used as manure or buried in a small area of land. </p>
+                   <p>This method is very good in cities where the volume of refuse generated daily is enormous however, the running cost is very high</p>
+                </div>
+            </section>
+
+            <section id='heading-5-6'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-5-6'>Other methods</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>countries include: </p>
+                   <ul>
+                    <li>Indiscriminate dumping on farm lands, and </li>
+                    <li>Burying</li>
+                   </ul>
+                   <p>Open Dumping Disadvantages</p>
+                   <ul>
+                    <li>Refuse is exposed to flies and rodents</li>
+                    <li>Nuisance from the smell and unsightly appearance</li>
+                    <li>Loose refuse is dispersed by the action of wind</li>
+                    <li>Pollutes surface and underground water</li>
+                   </ul>
+
+                   <figure>
+                    <img src="../figures/waste-mgt (3).png" alt="">
+                    <figcaption> </figcaption>
+                   </figure>
+                </div>
+            </section>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Characteristics of a sanitary waste disposal method</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>	It must not pollute the surface of the soil.</p>
+           <p>	It must not contaminate or pollute the surface water or the ground water.</p>
+           <p>	It must not make excreta accessible to flies and other animals.</p>
+           <p>	It should not be unsightly or smelly.</p>
+           <p>	There must be no handling of fresh excreta.</p>
+           <p>	The method must be simple and affordable, and should be acceptable in terms of cultural belief of the community.</p>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Sewage Disposal Methods </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">Liquid wastes</span></h4>
+            <p>What is the difference between sullage and sewage?</p>
+            <ul>
+                <li>Sewage or blackwater is waste water from a community, containing solid and liquid excreta, derived from houses, street and yard washings, factories and industries. It resembles dirty water with an unpleasant smell.</li>
+                <li>The term sullage or greywater is applied to wastewater which does not contain human fecal matter, e.g. wastewater from kitchen, laundry and bathroom.</li>
+            </ul>
+            <p>It is important to adequately dispose sewage because of the following:</p>
+            <ul>
+                <li>	To prevent soil and water pollution</li>
+                <li>	Contamination of food</li>
+                <li>	Propagation of flies</li>
+                <li>	Diseases e.g. dysentery, diarrhea, cholera, hookworm, viral hepatitis</li>
+                <li>	Proper disposal of human excreta is fundamental to environmental health</li>
+            </ul>
+
+            <h4><span class="special-text-4">Methods of Sewage Disposal</span></h4>
+            <p>Methods of sewage disposal in unsewered areas include</p>
+            <ol>
+                <li>Service type latrines e.g. pail, bucket. Disposed by burying or composting</li>
+                <li>	Non service type/sanitary latrine e.g. open defecation, pit latrine, water seal, septic tanks, aqua privy</li>
+                <li>	Latrines for camps and temporary use e.g. shallow trench, deep trench latrine, borehole latrine, chemical closet</li>
+            </ol>
+
+            <section id='heading-7-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-7-1'>Non-Service type</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>	Open defecation</p>
+                   <p>	Shallow pit or “cat method”</p>
+                   <p>	Overhung latrine: built over the sea, river, or other body of water into which excreta drops directly.</p>
+                   <p>	Sanitary latrine: include</p>
+                   <p>	Borehole latrine</p>
+                   <p>	Dug well or pit latrine; Simple pit latrine and Ventilated Improved Pit (VIP) latrine</p>
+                   <p>	Septic tank and soakaway pit</p>
+                   <p>	Water-seal type of latrine</p>
+                   <p>	Aqua privy</p>
+                </div>
+            </section>
+
+            <section id='heading-7-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-7-2'>Non-Water Carriage Systems</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <section id='heading-7-2-1'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-1'>Pit Latrine</a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>The conventional pit latrine consists of the pit, the floor and the superstructure. It should be at least 2.5 meters deep with floor made of reinforced concrete slab to ensure that it is strong and sited 6 meters from houses and 30 meters away and downhill from a water source. The pit must be provided with a tight lid. The pit latrine is ideal in rural areas and other communities where there is scarcity of water</p>
+                            <p>There are many modifications of the pit latrine aimed at improving the sanitary characteristics of this method of disposal. Example is the ventilated improved pit (V.I.P.) latrine, the borehole latrine and the water seal pit latrine, etc. </p>
+                            <p>A ventilated improved pit latrine has a vent pipe with a fly screen located outside the house. This helps to minimize fly and odor nuisance and makes the warm gas from the pit to move outside through the vent pipe</p>
+                        </div>
+                    </section>
+
+                    <section id='heading-7-2-2'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-2'>Trench Latrine</a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>This type of latrine consists of shallow trenches dug in such a way that excavated soil is left close to the trench for the purpose of covering the excreta after use. </p>
+                            <p>Each user is expected to use some of the soil to cover the excreta after each use. The trench latrine and the borehole latrine are useful for temporary sites such as refugee camps, work camps, picnic sites, holiday and festival camps</p>
+                
+                        </div>
+                    </section>
+
+                    <section id='heading-7-2-3'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-3'>Composting </a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>This is a biological destruction process whereby excreta and refuse are mixed and allowed to decompose in a corrosion-resistant container. </p>
+                            <p>The content of the container is turned regularly until decomposition is achieved. In multrum decomposition process takes place at normal air temperature. Humus is produced and carbon dioxide and other gases are allowed to escape</p>
+                
+                        </div>
+                    </section>
+
+                    <section id='heading-7-2-4'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-4'>Bucket Latrine/Conservancy</a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>Like the pit latrine, the bucket latrine is also water independent and it is very cheap to start but difficult and expensive to operate. </p>
+                            <p>Bucket latrine allows fresh handling of feces by the night soil man as well as constitute dour and fly nuisance</p>
+                
+                        </div>
+                    </section>
+
+                    <section id='heading-7-2-5'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-5'>Septic Tank and Soak Away Pit</a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>This method of sewage disposal is ideal where there is some availability of water. It consists of the flushing device known as the water closet, the inspection chamber and the short pipe (sewer) which leads into the septic tank. </p>
+                            <p>The night soil discharges from the house through the sewer to the septic tank where it stays and anaerobic action takes place and from where a clear effluent leaves to the soakaway pit. </p>
+                            <p>In the soakaway pit the effluent is absorbed by the surrounding soil. The sludge in the septic tank is removed when the tank is filled.</p>
+                        </div>
+                    </section>
+
+                    <section id='heading-7-2-6'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-6'>Aqua Privy </a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>It consists of a water-tight tank made up of concrete or any other durable materials and a floor which carries an inlet drop pipe. Feces are stored in the tank which is kept at a constant water level. </p>
+                            <p>A soak-away pit is also provided for the effluent from the aqua privy tank. It is important that the top of the water level is maintained constant to prevent the tip of the drop pipe from being exposed. To this effect addition of about a liter of water each time the toilet is used is recommended. </p>
+                            <p>Alternatively, the aqua privy tank may be connected to the bathroom so that the bath water ensures that the correct top water level is maintained</p>
+                        </div>
+                    </section>
+
+                    <section id='heading-7-2-7'>
+                        <header>
+                          <h4>
+                
+                            <a aria-hidden href='#heading-7-2-7'>Central Sewerage System</a>
+                          </h4>
+                        </header>
+                        <div class='body'>
+                            <p>Designed to transport sewage from houses in the community through a system of drains and underground pipes to a central place of disposal and treatment. </p>
+                            <p>This is the cleanest and sanitary of all disposal methods however, construction is expensive with sufficient slope and water needed to facilitate sewage flow</p>
+                
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>Disposal Methods of Human Corpse </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">Burying</span></h4>
+            <p>Most commonly used method globally, either on earth or in water</p>
+            <ul>
+                <li><span class="special-text"></span>Earth Burial: most popular of the two; done with/without coffin near home or in a dedicated area mapped out for burial. The grave should measure at least 6ft*4ft*6ft</li>
+                <li><span class="special-text"></span>Water Burial: dead body tipped into seawater after being weighted to prevent floating or washing ashore. Usually done in coastal areas and in emergencies e.g. shipwreck  </li>
+            </ul>
+            <h4><span class="special-text-4">Cremation</span></h4>
+            <ul>
+                <li>This is the most hygienic corpse disposal method done via reduction of the corpse into pile of ashes by application of heat. The ash is then buried, spread on ground/water or preserved by family members of deceased</li>
+            </ul>
+            <h4><span class="special-text-4">Other methods</span></h4>
+            <ul>
+                <li>Dissolution of corpse in chemical</li>
+                <li>Donation for study</li>
+                <li>Cannibalism</li>
+                <li>Ariel burial (body left to be eaten by vultures)</li>
+                <li>Freezing with liquid nitrogen </li>
+                <li>etc.  </li>
+            </ul>
+        </div>
+      </section>
+
+
+
+
+      </section>
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 

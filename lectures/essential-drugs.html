@@ -41,7 +41,25 @@
             <span class="toggle-slider"></span>
         </label>
       </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
       
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
   <main class="page-container">
     <div class="contribute-cta">
       <p>Help make this better💜</p>
@@ -61,35 +79,48 @@
     </div> -->
 
     <article class="notes">
-        <a id='top'></a>
-    <article>
-    <!-- <h2 class='title'>Outline</h2> -->
-    <div class="outline2">
+      <a id='top'></a>
+  <article>
 
-      <input type="radio" name="control-2" id="show-2">
-      <label for="show-2">Show Outline</label>
-      <input type="radio" name="control-2" id="hide-2">
-      <label for="hide-2">Hide Outline</label>
-      <div class="contents">
-         <ol>
-            <li><a href="#header-1">Introduction</a></li>
-            <li><a href="#header-2">Historical Background</a></li>
-            <li><a href="#header-3">Use of Drugs not on  EDL</a></li>
-            <li><a href="#header-4">Implications of EDP</a></li>
-            <li><a href="#header-5">Criteria for Selection</a></li>
-            <li><a href="#header-6">Goals of EDP</a></li>
-            <li><a href="#header-7">Actions involved in EDP</a></li>
-            <li><a href="#header-8">Tools for EDP</a></li>
-            <li><a href="#header-9">Rational Use OF Drugs</a></li>
-            <li><a href="#header-10">Irrational Drug Use</a></li>
-            <li><a href="#header-11">Problems of EDP</a></li>
-            <li><a href="#header-12">Advantages of EDP</a></li>
-            <li><a href="#header-13">Drug  Financing</a></li>
-            <li><a href="#header-14">Bamako Initiative</a></li>
-            <li><a href="#header-15">Drug Revolving Scheme</a></li>
-         </ol>
-      </div>
-     <div>
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
 
       <br>
 
@@ -367,13 +398,50 @@
 
       </section>
 
-      <div class="contact">
-        <hr style="margin: 3rem 0;">
+      <hr style="margin: 3rem 0;">
 
-        <div class="comment">
-        <p>Send your comments, corrections, explanations/clarifications and requests/suggestions to our <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">WhatsApp group</a>.</p>
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
         </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
       </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
     </article>
    </article>
    <div style="height: 300px;"></div>
@@ -386,9 +454,9 @@
 
           <!-- The pop-up dive content -->
           <div id="popup" class="popup">
-            <p>The content on this ‘Website’, including but not limited to text, graphics, images, videos, and other materials, should not be considered as a substitute for formal medical education or clinical training. The creators and operators of this Website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the Website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this Website.</p>
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
             <button class="popup-close" onclick="closePopup()">Close</button>
-          </div>     
+          </div>    
           <p><a href="../about-temp2.html">about</a> </p>   
           <p><a href="../contribute.html">contribute</a> </p>
           <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
@@ -405,6 +473,7 @@
 </a>
 <script src="../main.js"></script>
 <script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
 </body>
 </html>
  

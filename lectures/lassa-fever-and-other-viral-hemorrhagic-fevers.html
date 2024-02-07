@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Lassa Fever</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>Lassa Fever and other Viral Hemorrhagic Fevers</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+      <a id='top'></a>
+  <article>
+
+        <!-- LEARNING OBJECTIVES CONTAINER  -->
+            <div class="custom-card" id="custom-card-1">
+              <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+              <div class="title"> 
+                <h2>What You Will Learn</h2>
+              </div>
+              <div class="line">
+                <p>After reading this note, you should be able to...</p>
+              </div>
+              <div class="content">
+                <ul>
+                  <li><i>This content is not available yet.</i></li>
+              </ul>
+              </div>
+              <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+            </div>
+          
+        <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+      
+      
+        <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+      
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>Lassa fever is a viral hemorrhagic disease</li>
+                <li>Viral haemorrhagic fevers are diseases caused by four groups of viruses that manifest as febrile illnesses with ranging vascular deregulatory changes in the body.</li>
+                <li>These group of viruses include:</li>
+                <ul>
+                    <li>Arenaviridae</li>
+                    <li>Filoviridae</li>
+                    <li>Flaviviridae</li>
+                    <li>Bunyaviridae</li>
+                </ul>
+            </ul>
+
+            <figure>
+                <img src="../figures/lassa-fever (3).png" alt="">
+                <figcaption>VHFS and their causative agents </figcaption>
+              </figure>
+
+              <h4><span class="special-text-4b">What is Lassa fever?</span></h4>
+            <ul>
+                <li>An acute haemorrhagic disease caused by Lassa fever virus</li>
+                <li> Named after Lassa community in Borno state where it was discovered  </li>
+                <li>Lassa virus was isolated from two missionary nurses in 1969</li>
+                <li> An epidemic prone disease</li>
+                <li>Endemic in West Africa- Benin, Ghana, Liberia, Sierra lone, Mali and Nigeria</li>
+                <li> But there may be importation of cases into non endemic countries</li>
+            </ul>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Disease burden</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>Number of Lassa fever infections per year in West Africa is estimated at 300,000-500,000</li>
+                <li>Causes about 5000 deaths annually</li>
+                <li>CFR is about 1% however in hospitalized patient with severe illness is 15%</li>
+                <li>The incident rate in Nigeria is currently unknown </li>
+                <li>CFR in Nigeria varies between 3% to 42%</li>
+                <li>Largest outbreak in Nigeria was in 2018 affecting about 23 states</li>
+                <li>3,498 suspected cases were reported, 633 confirmed cases, amongst which were 45HCWs</li>
+                <li>HCW per case ratio was 7 per 100</li>
+            </ul>
+
+            <figure>
+                <img src="../figures/lassa-fever (2).png" alt="">
+                <figcaption> Risk map of Lassa fever in West Africa</figcaption>
+              </figure>
+
+              <figure>
+                <img src="../figures/lassa-fever (1).png" alt="">
+                <figcaption>Lassa fever distribution in Nigeria </figcaption>
+              </figure>
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Disease transmission</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">Agent: </span></h4>
+            <ul>
+                <li>Lassa fever virus, a single stranded RNA virus</li>
+            </ul>
+
+            <h4><span class="special-text-4">Host: </span></h4>
+            <ul>
+                <li>Reservoir host is the multimammate rats</li>
+                <ul>
+                    <li>Mastomys natalensis</li>
+                    <li>Mastomys erytholeucus</li>
+                    <li>Hylomyscus pamgi                                        </li>
+                </ul>
+            </ul>
+
+            <h4><span class="special-text-4">Environment: </span></h4>
+            <ul>
+                <li>Poor sanitary conditions</li>
+                <li>Deforestation</li>
+                <li>Climate changes</li>
+            </ul>
+
+            <p>Primary transmission- vector to human, occur when people consume infected bush rats or eat items contaminated with the urine/ faeces of infected rats</p>
+            <p>Secondary transmission- human to human, through exposure to infected person’s fluids </p>
+            <p>Nosocomial</p>
+            <p>Sexual transmission</p>
+            <p>An infected person sheds the virus in his semen for as long as 3months.</p>
+            <p>Incubation period is 2-21days</p>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Risk factors</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>Rural dwellers</li>
+                <li>Healthcare workers</li>
+                <li>Hunters</li>
+                <li>Wild animal consumption</li>
+                <li>Poor sanitation</li>
+                <li>Low SES</li>
+                <li>Pregnant women- it is very lethal in late trimester leading 2% maternal deaths and 80% fetal loss.</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Clinical features</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>It has a pansystemic effect</li>
+                <li>Presentation varies depends on the stage of the illness</li>
+                
+                <figure>
+                    <img src="../figures/lassa-fever (4).png" alt="">
+                    <figcaption> </figcaption>
+                  </figure>
+                <figure>
+                    <img src="../figures/lassa-fever (5).png" alt="">
+                    <figcaption>Clinical features </figcaption>
+                  </figure>
+                <li>Lassa fever could be classified as:</li>
+                <ul>
+                    <li>Wet LF</li>
+                    <li>Dry LF</li>
+                </ul>
+                <li>Wet LF are patients with wet symptoms such as bleeding, diarrhoea</li>
+                <li>Dry LF are patients without the wet symptoms such as malaise, headache</li>
+                <li>This classification overlaps</li>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Case definitions</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">Alert case </span></h4>
+            <ul>
+                <li>Any person with unexplained fever</li>
+            </ul>
+
+            <h4><span class="special-text-4">Suspected case</span></h4>
+            <ul>
+                <li>Any person with fever >38oC, with 1/more of the aforementioned symptoms.</li>
+            </ul>
+
+            <h4><span class="special-text-4">Probable case</span></h4>
+            <ul>
+                <li>A suspected case  who has one or more the following- hearing loss, seizures, hypotension, oliguria, abnormal bleeding and any of these laboratory features- deranged liver enzymes, decreased platelet count, elevated urea and creatinine</li>
+            </ul>
+
+            <h4><span class="special-text-4">Confirmed case</span></h4>
+            <ul>
+                <li>A suspected/probable case with a positive PCR result</li>
+                <li>Epidemiological linkage to a laboratory confirmed case</li>
+            </ul>
+
+            <h4><span class="special-text-4">Contact definition</span></h4>
+            <ul>
+                <li>A contact is a person who has been exposed to an infected person or to an infected person’s body fluids </li>
+                <li>Within three weeks of last contact with a confirmed or probable case of Lassa fever</li>
+                <li>Contacts are divided into 3 categories:</li>
+                <ul>
+                    <li>Category 1- no risk; casual contact</li>
+                    <li>Category 2- low risk; direct contact with patient</li>
+                    <li>Category 3- high risk: unprotected exposure to infectious body fluids</li>
+                </ul>
+            </ul>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'> Complications</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>Sensorineural hearing loss- 25% of patients</li>
+            <li>Maternal mortality </li>
+            <li>Acute Kidney Injury</li>
+            <li>Shock</li>
+            <li>IUFD</li>
+            <li>Transient hair loss</li>
+            <li>Gait abnormalities</li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'> Prevention</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>Enforcement of policies on good environmental sanitations</li>
+            <li>Environmental protection laws- against deforestations</li>
+            <li>Health education (food and environmental hygiene)</li>
+            <li>Control of vectors- chemical, physical and biological e.g. rodenticides, cats, blockage of holes</li>
+            <li>Adherence to IPC protocols e.g. use of PPE by HCWs</li>
+            <li>Safe sex practices</li>
+            <li>Prompt diagnosis and treatment</li>
+            <li>Rehabilitation- provision of hearing aids</li>
+            <li>Surveillance</li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'> Challenges</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>Poor surveillance system</li>
+            <li>Inadequate supplies of PPEs for HCWs</li>
+            <li>Limited treatment centres</li>
+            <li>Wild game adventures</li>
+            <li>Unequipped/ scanty laboratory facilities</li>
+            <li>Lack of vaccine</li>
+            <li>Risk of bioterrorism</li>
+            <li>Culture</li>
+           </ul>
+        </div>
+      </section>
+
+      <section id='header-10'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-10'> Conclusion</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <ul>
+            <li>VHFs are majorly endemic in Africa</li>
+            <li>Lassa fever, Ebola virus disease and yellow fever are responsible for the major VHFs seen in the continent</li>
+            <li>Lack of a suitable vaccine sabotaged the control of VHF</li>
+            <li>Research on vaccine development, provision of adequate PPE, and training of HCW on IPC, strengthening of surveillance system, risk communication, international collaboration and response coordination are strongly recommended to help curtail the scourge of VHFs.</li>
+           </ul>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 

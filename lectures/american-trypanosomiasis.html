@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>American Trypanosomiasis (Chagas Disease)</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+    <h1>American Trypanosomiasis (Chagas Disease)</h1>
+  
+    <!-- <div class="author-flex">
+      <div class="author-img">
+        <img  src="/contributors/vt1.jpeg" alt="">
+      </div>
+      <div>
+        <h2 class="name">Compiled by Victortayo</h2>
+        <p class="updated">last updated, Nov 2022</p>
+      </div>
+    </div> -->
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+          <div class="outline2">
+        
+            <input type="radio" name="control-2" id="show-2">
+            <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+            <input type="radio" name="control-2" id="hide-2">
+            <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+            <div class="contents">
+              <div class="icon-box">
+                <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                <img src="../images/icons/book.png" alt="Icon" class="icon">
+              </div>
+              <div id="tableOfContents">
+                  <ol id="tocList"></ol>
+              </div>
+            </div>
+           <div>
+      
+      <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+      <br>
+
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">The Organism</span></h4>
+            <p>Also known as New World Trypanosomiasis/South American Trypanosomiasis/Mal de Chagas/Chagas-Mazza Disease</p>
+            <p>American trypanosomiasis (Chagas disease) results from infection with the protozoan parasite Trypanosoma cruzi, a member of the family Trypanosomatidae. </p>
+            <p>Most strains of this parasite can be classified into two major groups, T. cruzi I and T. cruzi II, which can be separated further into various lineages (e.g., T. cruzi IIa). Lineages tend to be associated with certain host species, although this relationship is not absolute. </p>
+            <p>T. cruzi is susceptible to many disinfectants. It is destroyed by several hours of exposure to direct sunlight or other harsh environments. </p>
+
+            <figure>
+                <img src="../figures/chagas.jpg" alt="">
+                <figcaption>Trypanosoma forms in blood smear from patient with African trypanosomiasis. Source: CDC Public Health Image Library </figcaption>
+               </figure>
+            <h4><span class="special-text-4">History</span></h4>
+            <p>In 1907, while working among railroad workers in Brazil, physician Carlos Chagas first became aware of the barbiero, a blood-sucking bug infesting huts of the region. He quickly became interested in the insect and investigated whether it could be a transmitter of any parasites of man. </p>
+            <p>By 1909, a new species of trypanosome was discovered, and the first published reports followed. Until the 1930s, little attention was given to Chagas disease as a public health issue. </p>
+        </div>
+
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Epidemiology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4><span class="special-text-4">Geographic Distribution</span></h4>
+            <ul>
+                <li>T. cruzi can be found in the Americas from the U.S. to Chile and central Argentina. </li>
+                <li>In the U.S., this parasite is thought to be endemic in approximately the southern half of the country, as well as in California. </li>
+                <li>An estimated 8 to 11 million people are infected worldwide.</li>
+            </ul>
+            <h4><span class="special-text-4">Populations at Risk</span></h4>
+            <ul>
+                <li>Chagas disease is most common among people who live in substandard housing in developing areas. Triatomine vectors for T. cruzi are present in the U.S.; however, only a few locally acquired, vector-borne cases have been diagnosed in people. </li>
+                <li>The lower prevalence rate in the U.S. is mainly due to higher standards of living and the absence of triatomine species that are well adapted to living in human houses. </li>
+                <li>According to the CDC, Chagas is considered a Neglected Infection of Poverty (NIP) in the U.S. since it is found mostly in those with limited resources and limited access to medical care. </li>
+                <li>People in certain occupational risk groups may also be exposed; this includes veterinarians, technicians, and laboratory personnel. Individuals who work with wildlife and hunters are at risk, as are travelers to areas where Chagas is endemic.</li>
+            </ul>
+            <h4><span class="special-text-4">Species Affected</span></h4>
+            <ul>
+                <li>Trypanosoma cruzi occurs in more than 100 species of mammals throughout the Americas; infections have been reported among carnivores including dogs and cats, as well as in pigs, goats, lagomorphs, rodents, marsupials, bats, xenarthra (anteaters, armadillos and sloths) and non-human primates. </li>
+                <li>In the U.S., opossums, armadillos, raccoons, coyotes, rats, mice, squirrels, dogs and cats are among the most frequent hosts. Birds, reptiles and fish are not susceptible to infection. </li>
+            </ul>
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Transmission</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Chagas disease is a vector-borne disease transmitted primarily by triatomine insects, which are also called reduviid insects, “kissing beetles/ bugs” or “assassin bugs.” </p>
+            <p>More than 130 species of these insects appear to be capable of transmitting T. cruzi, with the most important species in the genera Triatoma, Rhodnius and Panstrongylus. </p>
+            <p>The parasite usually completes its life cycle by cycling between an insect species and a mammalian species with which the insect lives in close association. </p>
+
+            <figure>
+                <img src="../figures/chagas (2).jpg" alt="">
+                <figcaption> Dorsal view of the “kissing bug”, Triatoma infestans, a vector for Chagas disease. Source: CDC Public Health Image Library</figcaption>
+            </figure>
+
+            <p>There are three basic cycles of transmission for T. cruzi. </p>
+            <ol>
+                <li>In the sylvatic (wild) cycle, this organism cycles between wildlife and triatomine insects that live in sylvatic environments. Humans and domesticated animals are infected occasionally when they contact these bugs in the wild. The sylvatic cycle is responsible for relatively few cases of Chagas disease. It is the only cycle in the U.S. </li>
+                <li>A domestic transmission cycle also exists in Mexico and parts of Central and South America. In this cycle, some insect vectors have colonized primitive adobe, grass and thatched houses, resulting in transmission between humans and insects. </li>
+                <li>Transmission cycles between insects and domesticated animals (peridomestic cycles) can also provide opportunities for the parasite to infect humans. </li>
+            </ol>
+            <p>T. cruzi is not spread between mammals by casual contact; however, it can be transmitted directly via blood (e.g., in a blood transfusion) and in donated organs. </p>
+            <p>Carnivores can acquire this organism when they eat infected prey. </p>
+            <p>Vertical transmission has been reported in dogs and other animals, both in utero and in the milk. Transmission in milk is very rare in humans, but transplacental transmission can occur at each pregnancy, and during all stages of infection. </p>
+            <p>Laboratory infections usually occur when the parasites contact mucous membranes or broken skin, or are accidentally injected via needlestick injuries, but aerosol transmission might be possible in this setting. </p>
+
+            <figure>
+                <img src="../figures/chagas.png" alt="">
+                <figcaption>Life cycle </figcaption>
+            </figure>
+
+            <h4><span class="special-text-4">Incubation period</span></h4>
+            <p>In humans, the incubation period is usually at least 5 to 14 days after exposure to triatomine insect feces, and 20 to 40 days after infection by blood transfusion. </p>
+            <p>Many people do not become symptomatic until the chronic stage, which can occur 5 to 40 years after infection. </p>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Phases </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <section id='heading-4-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-1'>Acute phase</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>The acute phase is defined as the period during which the parasites can be found easily in the blood. </p>
+                   <p>Many people, particularly adults, are asymptomatic during this stage. </p>
+                   <p>The symptoms of the acute phase are highly variable and may include fever, headache, anorexia, malaise, myalgia, joint pain, weakness, nausea, vomiting, diarrhea, hepatomegaly, splenomegaly, and generalized or localized lymphadenopathy. </p>
+                   <p>Edema, either generalized or localized to the face and/or lower extremities, occurs in some cases. </p>
+                   <p>Sometimes, a <b>chagoma</b> (a localized painless induration) is seen where the parasite has entered through the skin. </p>
+                   <p>If entry occurs via the ocular mucous membranes, there may be painless edema of one or occasionally both eyes, often accompanied by conjunctivitis and enlargement of the local lymph nodes. This syndrome, which is called <b>Romaña’s sign</b>, usually persists for 1 to 2 months. </p>
+                   <p>Patients occasionally develop a rash, but this usually disappears within several days. In most cases, the clinical signs resolve within weeks to months without treatment; however, some acute cases can be fatal. </p>
+                </div>
+            </section>
+
+            <section id='heading-4-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-2'>Indeterminate phase</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>The acute phase is usually followed by an asymptomatic period of varying length; this stage is called the indeterminate phase. </p>
+                   <p>During the indeterminate phase, the parasites disappear from the blood. Although estimates vary, approximately 70% to 90% of the patients in the indeterminate phase never become symptomatic. </p>
+                   <p>Most of the remaining patients enter the chronic phase after 5 to 15 years, but in a few patients, the indeterminate phase can last as long as 40 years.</p>
+                </div>
+            </section>
+
+            <section id='heading-4-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-3'>Chronic phase</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                   <p>The chronic phase is typically represented by organ failure, usually of the heart or digestive system. </p>
+                   <p>Heart disease, the most common form of chronic Chagas disease, may be characterized by arrhythmias and conduction abnormalities, cardiac failure, apical aneurisms, embolic disease including stroke or pulmonary embolism, and sudden death. Signs of isolated left heart failure may occur first. </p>
+                   <p>Digestive system abnormalities lead to megaesophagus and/or megacolon, which can occur concurrently with heart disease. The symptoms of megaesophagus may include pain during swallowing, excessive salivation, regurgitation and chest pain. </p>
+                   <p>In severe cases, there may be weight loss or cachexia, and the esophagus may rupture. The symptoms of megacolon include severe constipation, which can last for a few days to months, and abdominal pain that is often associated with episodes of constipation. </p>
+                   <p>Patients with Chagas disease also have an increased chance of developing gastric ulcers or chronic gastritis, due to abnormalities in the stomach. </p>
+                   <p>Immunocompromised people can be severely affected</p>
+                   <p>Women who are infected with T. cruzi can give birth to infected children. Congenital infections may occur during any of the woman’s pregnancies, whether she is symptomatic or not. In congenitally infected infants, the most common symptoms are premature birth, hepatosplenomegaly, meningoencephalitis, changes in the retina and signs of acute myocarditis/ cardiac insufficiency. Transplacental infections are also associated with abortions. </p>
+                   <p>Patients with AIDS suffer a more severe form of the disease with a high percentage of neurological and cardiac signs. Many of these patients develop T. cruzi brain abscesses, which are not seen in immunocompetent patients. HIV-infected individuals and others who are immunosuppressed, including those who receive organ transplants, are at risk for reactivation of T. cruzi replication. </p>
+                </div>
+            </section>
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Diagnosis</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Chagas disease can be diagnosed by </p>
+            <ul>
+                <li>Microscopy</li>
+                <li>Isolation of the parasite</li>
+                <li>Serology </li>
+                <li>Molecular techniques</li>
+            </ul>
+            <p>Light microscopy can sometimes detect T. cruzi in Giemsa or Wright stained samples of blood, cerebrospinal fluid or tissues. T. cruzi can be found in the heart, skeletal and smooth muscle cells, and the glial cells of the nervous system. It sometimes occurs in chagomas. In immuno-compromised patients, parasites may also be detected in atypical sites such as the pericardial fluid, bone marrow, brain, skin and lymph nodes. Active parasitemia is much more likely to be found during the acute than the chronic stage. </p>
+            <p>T. cruzi can be cultured from heparinized blood samples or tissues. Various specialized media including liver infusion tryptose medium or Novy-MacNeal-Nicolle medium, as well as Vero cell lines can be used. Culture may take 1 to 6 months. </p>
+            <p>Serology is most often used to diagnose chronic infections. Commonly used serological tests in humans include indirect immunofluorescence (IFA), hemagglutination and enzyme-linked immunosorbent assays (ELISAs). Other tests including radioimmunoprecipitation and complement fixation may also be used. Cross-reactions can occur with other parasites, particularly Leishmania species. </p>
+            <p>Polymerase chain reaction (PCR) techniques can be used for diagnosis. Immunoblotting (Western blotting) is another option. </p>
+
+            <figure>
+                <img src="../figures/chagas (2).png" alt="">
+                <figcaption>Micrograph of Trypanosoma cruzi in a blood smear using Giemsa staining technique. CDC Public Health Image Library</figcaption>
+            </figure>
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Treatment</a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Acute Chagas disease can be treated with antiparasitic drugs. In the U.S., drugs may be available only under an Investigational New Drug protocol from the CDC Drug Service. </p>
+           <p>Treatment of acute or congenital cases is recommended to prevent the development of chronic disease. </p>
+           <p>Antiparasitic drugs are less effective in the indeterminate and chronic stages, and treatment recommendations may vary with the age of the patient and other factors. </p>
+           <p>There are significant side effects with these drugs, which must be given long term. In the chronic stage, treatment of cardiomyopathy is mainly symptomatic and similar to the treatment of other causes of heart disease. A pacemaker may be necessary, and a heart transplant can be considered. </p>
+           <p>Examples of drugs include benznidazole and nifurtimox.</p>
+           <p>Surgery, balloon dilation of the gastroesophageal junction and/or symptomatic relief may be used for chagasic megaesophagus or megacolon. </p>
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Morbidity and Mortality </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>The morbidity and mortality rates vary with the stage of the disease. </p>
+           <p>Approximately 5% of people infected with T. cruzi develop acute symptoms. Estimates of the case fatality rate for acute Chagas disease range from less than 5% to approximately 8%; among immunologically competent individuals; deaths occur mainly in young children with acute myocarditis or meningoencephalitis. </p>
+           <p>The CDC estimates that 20 to 30% of humans infected with T. cruzi eventually develop chronic disease; estimates from other sources vary from 10% to 50%. The reason for the progression of disease in some patients but not others is unknown. It may be related to host genetic factors, the dose of the parasites, the number of inoculations, the strain of the parasite, and immunological or nutritional factors. </p>
+           <p>Cardiac disease is often fatal. Occasionally, deaths are also caused by volvulus of a dilated sigmoid megacolon. </p>
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>Prevention and Control </a>
+          </h2>
+        </header>
+        <div class='body'>
+           <p>Currently, states are not required by federal law to report cases of Chagas disease. However, Chagas disease is reportable by state mandate in Arizona, Massachusetts, and Tennessee. </p>
+           <p>At this time, there are no plans to add Chagas disease to the list of diseases which are nationally notifiable. </p>
+
+           <section id='heading-8-1'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-8-1'>Prevention in Humans</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <p>Contact with triatomine insects should be prevented; they usually feed at night and withdraw to their hiding places in daylight. In endemic areas, houses can be improved by plastering walls, improving flooring and taking other measures to remove the cracks where these insects hide. </p>
+               <p>Triatomine insects are often found in basements, which should be avoided. Sleeping inside a screened area, under a permethrin-impregnated bed net, or in an air-conditioned room is safest. Bed nets should be tucked tightly under the mattress before dusk. </p>
+               <p>Animal pens and storage areas should be kept away from homes. </p>
+               <p>Regular spraying of insecticides in and around houses can reduce the number of insects, and in some cases, eliminate them. </p>
+               <p>Foods that might be contaminated should be cooked. </p>
+               <p>Since 1991, the Pan American Health Organization and the World Health Organization have run a joint program to eliminate T. infestans, the most important vector for Chagas disease in humans. This program has decreased the distribution of this insect by more than 80%, although foci can still be found in some regions. </p>
+               <p>Blood and organ donors should be screened to prevent transmission by these routes. In the U.S., transfused blood has been screened for Chagas disease since 2007. </p>
+               <p>Pregnant women can be tested to identify cases where congenital transmission may occur, and the infant should be monitored and treated if necessary. </p>
+               <p>People in occupational risk groups should take additional precautions. </p>
+               <ul>
+                <li>Veterinarians and technicians should protect their skin and mucous membranes from contamination with parasites in blood or tissues. This includes using gloves and/or other barriers while drawing blood samples from T. cruzi-infected animals, taking care of IV catheters or performing other invasive procedures. </li>
+                <li>Needles and other “sharps” must be handled and disposed of properly to prevent needlestick injuries. </li>
+                <li>Individuals who work with wildlife and hunters should also take precautions, especially when handling blood and tissues. Laboratory personnel should use appropriate personal protective equipment, including gloves and eye protection, while processing blood samples, cultures or infected insects. </li>
+                <li>If an accidental exposure occurs, the site should be disinfected immediately if possible, and antiparasitic drugs may be given prophylactically. </li>
+               </ul>
+               <p>Travelers to areas where Chagas disease is common should wear thick clothing that covers as much of the body as possible; heavy long-sleeved shirts, long pants, socks and shoes are recommended. Sleeping in sub-standard housing should, if possible, be avoided. </p>
+               <p>Vaccines are not available for humans; however, precautions can be taken to reduce the risk of infection, particularly in countries where the prevalence of Chagas disease is high.</p>
+            </div>
+          </section>
+
+          <section id='heading-8-2'>
+            <header>
+              <h3>
+                <a aria-hidden href='#heading-8-2'>Prevention in Animals</a>
+              </h3>
+            </header>
+            <div class='body'>
+               <p>Dogs and cats should not be allowed to eat tissues from potentially infected wild animals. Strict indoor housing in well-constructed homes or other facilities reduces the risk of infection. </p>
+               <p>Housing animals indoors at night, when triatomine insects are active, may also be helpful. Residual insecticides sprayed regularly in kennels and surrounding structures may decrease the number of insect vectors. </p>
+               <p>In breeding kennels, testing bitches for T. cruzi-might also decrease the incidence of Chagas disease by reducing vertical transmission. No vaccines are available. </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      </section>
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
