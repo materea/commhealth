@@ -79,10 +79,10 @@
 
 @media only screen and (max-width: 600px) {
 
-  .about-banner {
+  /* .about-banner {
     background-size: contain;
     height: 7rem;
-  }
+  } */
   
   .about-wrapper .img {
     background-size: cover;

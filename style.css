@@ -2399,10 +2399,10 @@ body.dark-mode {
   
   @media only screen and (max-width: 600px) {
   
-    .contribute-banner {
+    /* .contribute-banner {
       background-size: contain;
       height: 7rem;
-    }
+    } */
     
     .contribute-wrapper .img {
       background-size: cover;
